@@ -1,13 +1,92 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+
+@layer components {
+  .nav-text {
+    @apply font-extralight text-xl md:text-base lg:text-xl hover:opacity-70 tracking-wide px-3 md:px-2 lg:px-3 text-white  font-poppin;
+  }
+  .btn-para {
+    @apply flex items-center cursor-pointer  bg-white text-[#3a72b9] border-2 border-[#3a72b9] w-max px-2 py-1 text-2xl font-quick font-extrabold  rounded-full dark:bg-transparent;
+  }
+  .head-para {
+    @apply text-4xl  text-black dark:text-white font-extrabold font-quick;
+  }
+  .text-para {
+    @apply text-xl  text-gray-600 dark:text-white font-normal font-poppin;
+  }
+  .reg-div {
+    @apply px-6 mt-8 outline-none w-[400px] items-center ring-1   focus:bottom-6  flex space-x-1 h-16  rounded-full ring-gray-400 hover:shadow-md;
+  }
+  .reg-div-respo {
+    @apply px-3 mt-8 outline-none w-[98%] items-center ring-1   focus:bottom-6  flex space-x-1 h-12  rounded-full ring-gray-400 hover:shadow-md;
+  }
+  .reg-input {
+    @apply outline-none px-4 font-quick text-2xl font-semibold placeholder:text-gray-700 bg-transparent dark:text-white w-full;
+  }
+  .reg-input-respo {
+    @apply outline-none font-quick text-lg font-semibold placeholder:text-gray-700 bg-transparent dark:text-white;
+  }
+  .for-you-cat {
+    @apply hover:bg-zinc-200 px-4 rounded-full py-2 font-bold text-[#3a72b9]  min-w-[190px] tracking-widest text-2xl;
+  }
+  .for-you-cat-resp {
+    @apply hover:bg-zinc-200 px-2 rounded-full py-1 font-bold text-[#3a72b9]  min-w-[150px] tracking-widest text-xl;
+  }
+  .for-you-cat-active {
+    @apply px-4 rounded-full py-2 font-bold bg-[#3a72b9] text-white   min-w-[190px] tracking-widest text-2xl;
+  }
+  .for-you-cat-active-resp {
+    @apply px-2 rounded-full py-1 font-bold bg-[#3a72b9] text-white  min-w-[150px] tracking-widest text-xl;
+  }
+  .quiz-border {
+    @apply border-2 rounded-full bg-white relative w-44 top-28;
+  }
+  .quiz-text-bottom {
+    @apply relative w-44 top-28 text-center mt-2 text-white font-quick text-lg tracking-wide;
+  }
+  .quiz-text {
+    @apply text-white  font-extrabold  text-2xl font-quick  tracking-widest;
+  }
+  .quiz-text-soon {
+    @apply relative    text-white items-center font-quick font-extrabold  text-xl  bottom-52;
+  }
+  .main-quiz-btn {
+    @apply font-quick font-bold text-base px-11 py-3 rounded-xl border-2  shadow-md hover:shadow-xl;
+  }
+  .main-quiz-btn-resp {
+    @apply font-quick font-semibold text-xs px-2 py-2 rounded-lg border  shadow-md hover:shadow-xl;
+  }
+  .social-icon {
+    @apply h-7 md:h-9 hover:scale-125 transition-all duration-150 ease-in;
+  }
+
+  .footer-text {
+    @apply text-base dark:text-white;
+  }
+  .learn-text {
+    @apply text-gray-700 dark:text-white;
+  }
+
+  .user-heading {
+    @apply w-full font-medium text-[#3a72b9] text-xl  font-quick;
+  }
+  .text {
+    @apply dark:text-white;
+  }
+  .quiz_title {
+    @apply font-quick text-xl font-extrabold text-center dark:text-white;
+  }
+  .quiz_title_small {
+    @apply font-poppin text-base font-normal text-gray-500 text-center;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+

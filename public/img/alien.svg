@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="365" height="65" viewBox="0 0 365 65">
+  <defs>
+    <filter id="Rectangle_396" x="0" y="0" width="365" height="65" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_484" data-name="Group 484" transform="translate(-1187.5 -610.5)">
+    <g transform="matrix(1, 0, 0, 1, 1187.5, 610.5)" filter="url(#Rectangle_396)">
+      <rect id="Rectangle_396-2" data-name="Rectangle 396" width="350" height="50" rx="20" transform="translate(7.5 7.5)" fill="#3a72b9"/>
+    </g>
+    <text id="_Sci-Fi_" data-name="👽  Sci-Fi" transform="translate(1308 628)" fill="#fff" font-size="24" font-family="SegoeUIEmoji, Segoe UI Emoji"><tspan x="8.405" y="26">👽 </tspan><tspan y="26" xml:space="preserve" font-family="Poppins-Regular, Poppins"> Sci-Fi</tspan></text>
+  </g>
+</svg>

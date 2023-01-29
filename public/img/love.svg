@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="365" height="65" viewBox="0 0 365 65">
+  <defs>
+    <filter id="Rectangle_397" x="0" y="0" width="365" height="65" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_483" data-name="Group 483" transform="translate(-767.5 -610.5)">
+    <g transform="matrix(1, 0, 0, 1, 767.5, 610.5)" filter="url(#Rectangle_397)">
+      <rect id="Rectangle_397-2" data-name="Rectangle 397" width="350" height="50" rx="20" transform="translate(7.5 7.5)" fill="#fff"/>
+    </g>
+    <text id="_Romantic_" data-name="💘	 Romantic
+" transform="translate(857 627)" font-size="24" font-family="SegoeUIEmoji, Segoe UI Emoji"><tspan x="86.523" y="26">💘	</tspan><tspan y="26" xml:space="preserve" font-family="Poppins-Regular, Poppins"></tspan></text>
+  </g>
+</svg>

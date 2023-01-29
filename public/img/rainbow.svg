@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="365" height="65" viewBox="0 0 365 65">
+  <defs>
+    <filter id="Rectangle_114" x="0" y="0" width="365" height="65" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_31_6" data-name="Component 31 – 6" transform="translate(7.5 7.5)">
+    <g transform="matrix(1, 0, 0, 1, -7.5, -7.5)" filter="url(#Rectangle_114)">
+      <rect id="Rectangle_114-2" data-name="Rectangle 114" width="350" height="50" rx="20" transform="translate(7.5 7.5)" fill="#3a72b9"/>
+    </g>
+  </g>
+  <text id="_Animated" data-name="🌈	 Animated" fill="#fff" font-size="24" font-family="SegoeUIEmoji, Segoe UI Emoji"><tspan x="170" y="38">🌈	</tspan><tspan y="26" xml:space="preserve" font-family="Poppins-Regular, Poppins"> </tspan></text>
+
+</svg>

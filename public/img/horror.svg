@@ -1,0 +1,20 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="365" height="65" viewBox="0 0 365 65">
+  <defs>
+    <filter id="Rectangle_394" x="0" y="0" width="365" height="65" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_481" data-name="Group 481" transform="translate(-348.5 -520.5)">
+    <g transform="matrix(1, 0, 0, 1, 348.5, 520.5)" filter="url(#Rectangle_394)">
+      <rect id="Rectangle_394-2" data-name="Rectangle 394" width="350" height="50" rx="20" transform="translate(7.5 7.5)" fill="#3a72b9"/>
+    </g>
+    <text id="_Horor_" data-name="👻 Horor
+" transform="translate(480 538)" fill="#fff" font-size="24" font-family="SegoeUIEmoji, Segoe UI Emoji"><tspan x="9.215" y="26">👻 </tspan><tspan y="26" font-family="Poppins-Regular, Poppins">Horor
+</tspan></text>
+  </g>
+</svg>
